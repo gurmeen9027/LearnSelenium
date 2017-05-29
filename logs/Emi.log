@@ -1,0 +1,21 @@
+[INFO] 2017-05-29 18:15:44,192 Day9.FD.EMICalc main - Started Execution
+[INFO] 2017-05-29 18:15:48,414 Day9.FD.EMICalc main - Launch application
+[INFO] 2017-05-29 18:15:54,639 Day9.FD.EMICalc main - Started Execution
+[INFO] 2017-05-29 18:15:54,639 Day9.FD.EMICalc main - Enter the values
+[INFO] 2017-05-29 18:15:55,144 Day9.FD.EMICalc main - Extract value
+[ERROR] 2017-05-29 18:15:55,197 Day9.FD.EMICalc main - Validation failed
+[INFO] 2017-05-29 18:15:56,899 Day9.FD.EMICalc main - Close application
+2017-05-29 18:27:14 INFO  EMICalc:37 - Started Execution
+2017-05-29 18:27:24 INFO  EMICalc:45 - Launch application
+2017-05-29 18:27:30 INFO  EMICalc:52 - Started Execution
+2017-05-29 18:27:30 INFO  EMICalc:55 - Enter the values
+2017-05-29 18:27:31 INFO  EMICalc:61 - Extract value
+2017-05-29 18:27:31 ERROR EMICalc:73 - Validation failed
+2017-05-29 18:27:33 INFO  EMICalc:92 - Close application
+2017-05-29 18:30:43 INFO  EMICalc:37 - Started Execution
+2017-05-29 18:30:48 INFO  EMICalc:45 - Launch application
+2017-05-29 18:30:57 INFO  EMICalc:52 - Started Execution
+2017-05-29 18:30:57 INFO  EMICalc:55 - Enter the values
+2017-05-29 18:30:57 INFO  EMICalc:61 - Extract value
+2017-05-29 18:30:57 INFO  EMICalc:69 - Validation successful
+2017-05-29 18:30:59 INFO  EMICalc:92 - Close application
