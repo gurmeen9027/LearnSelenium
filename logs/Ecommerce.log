@@ -1,0 +1,24 @@
+2017-05-30 17:41:46 INFO  ECommercedemo:24 - Chrome driver launched
+2017-05-30 17:42:16 INFO  ECommercedemo:27 - Application launched
+2017-05-30 17:42:41 INFO  ECommercedemo:34 - Actions performed on webelements
+2017-05-30 17:42:41 INFO  ECommercedemo:36 - Login action successful
+2017-05-30 17:42:41 INFO  ECommercedemo:39 - Validation performed
+2017-05-30 17:43:08 INFO  ECommercedemo:46 - Login validation successful
+2017-05-30 17:43:08 INFO  ECommercedemo:51 - Logout action successful
+2017-05-30 17:43:09 INFO  ECommercedemo:54 - Driver closed
+2017-05-30 18:12:05 INFO  ECommercedemo:34 - Chrome driver launched
+2017-05-30 18:12:50 INFO  ECommercedemo:37 - Application launched
+2017-05-30 18:13:21 INFO  ECommercedemo:46 - Actions performed on webelements
+2017-05-30 18:13:22 INFO  ECommercedemo:48 - Login action successful
+2017-05-30 18:13:58 INFO  ECommercedemo:58 - Login validation successful
+2017-05-30 18:13:58 INFO  ECommercedemo:61 - Validation performed
+2017-05-30 18:13:58 INFO  ECommercedemo:65 - Logout action successful
+2017-05-30 18:14:00 INFO  ECommercedemo:73 - Driver closed
+2017-05-30 18:31:37 INFO  ECommercedemo:43 - Chrome driver launched
+2017-05-30 18:32:15 INFO  ECommercedemo:46 - Application launched
+2017-05-30 18:39:23 INFO  ECommercedemo:43 - Chrome driver launched
+2017-05-30 18:40:05 INFO  ECommercedemo:46 - Application launched
+2017-05-30 18:46:59 INFO  ECommercedemo:43 - Chrome driver launched
+2017-05-30 18:47:29 INFO  ECommercedemo:46 - Application launched
+2017-05-30 18:49:06 INFO  ECommercedemo:43 - Chrome driver launched
+2017-05-30 18:49:43 INFO  ECommercedemo:46 - Application launched
