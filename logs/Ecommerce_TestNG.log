@@ -1,0 +1,8 @@
+2017-05-31 15:16:09 INFO  Ecommerce_TestNG:44 - Chrome driver launched
+2017-05-31 15:16:27 INFO  Ecommerce_TestNG:47 - Application launched
+2017-05-31 15:16:33 INFO  Ecommerce_TestNG:57 - Actions performed on webelements
+2017-05-31 15:16:33 INFO  Ecommerce_TestNG:59 - Login action successful
+2017-05-31 15:17:07 INFO  Ecommerce_TestNG:69 - Login validation successful
+2017-05-31 15:17:07 INFO  Ecommerce_TestNG:73 - Validation performed
+2017-05-31 15:17:07 INFO  Ecommerce_TestNG:77 - Logout action successful
+2017-05-31 15:17:09 INFO  Ecommerce_TestNG:86 - Driver closed

@@ -22,3 +22,33 @@
 2017-05-30 18:47:29 INFO  ECommercedemo:46 - Application launched
 2017-05-30 18:49:06 INFO  ECommercedemo:43 - Chrome driver launched
 2017-05-30 18:49:43 INFO  ECommercedemo:46 - Application launched
+2017-05-30 18:55:07 INFO  ECommercedemo:43 - Chrome driver launched
+2017-05-30 18:55:36 INFO  ECommercedemo:46 - Application launched
+2017-05-30 18:56:10 INFO  ECommercedemo:56 - Actions performed on webelements
+2017-05-30 18:56:10 INFO  ECommercedemo:58 - Login action successful
+2017-05-30 18:56:49 INFO  ECommercedemo:68 - Login validation successful
+2017-05-31 09:56:55 INFO  ECommercedemo:43 - Chrome driver launched
+2017-05-31 09:57:04 INFO  ECommercedemo:46 - Application launched
+2017-05-31 09:58:41 INFO  ECommercedemo:43 - Chrome driver launched
+2017-05-31 09:58:47 INFO  ECommercedemo:46 - Application launched
+2017-05-31 10:00:32 INFO  ECommercedemo:44 - Chrome driver launched
+2017-05-31 10:00:39 INFO  ECommercedemo:47 - Application launched
+2017-05-31 10:00:41 INFO  ECommercedemo:99 - start of getscreenshot
+2017-05-31 10:02:30 INFO  ECommercedemo:44 - Chrome driver launched
+2017-05-31 10:02:45 INFO  ECommercedemo:47 - Application launched
+2017-05-31 10:02:47 INFO  ECommercedemo:99 - start of getscreenshot
+2017-05-31 10:05:03 INFO  ECommercedemo:44 - Chrome driver launched
+2017-05-31 10:05:14 INFO  ECommercedemo:47 - Application launched
+2017-05-31 10:05:16 INFO  ECommercedemo:99 - start of getscreenshot
+2017-05-31 10:06:19 INFO  ECommercedemo:44 - Chrome driver launched
+2017-05-31 10:06:27 INFO  ECommercedemo:47 - Application launched
+2017-05-31 10:06:28 INFO  ECommercedemo:99 - start of getscreenshot
+2017-05-31 10:06:34 INFO  ECommercedemo:99 - start of getscreenshot
+2017-05-31 10:06:34 INFO  ECommercedemo:57 - Actions performed on webelements
+2017-05-31 10:06:34 INFO  ECommercedemo:59 - Login action successful
+2017-05-31 10:06:39 INFO  ECommercedemo:69 - Login validation successful
+2017-05-31 10:06:39 INFO  ECommercedemo:99 - start of getscreenshot
+2017-05-31 10:06:39 INFO  ECommercedemo:72 - Validation performed
+2017-05-31 10:06:39 INFO  ECommercedemo:76 - Logout action successful
+2017-05-31 10:06:39 INFO  ECommercedemo:99 - start of getscreenshot
+2017-05-31 10:06:41 INFO  ECommercedemo:85 - Driver closed
