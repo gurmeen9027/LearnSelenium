@@ -16,7 +16,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-import com.gargoylesoftware.htmlunit.javascript.host.Map;
+
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -27,7 +27,7 @@ public class Ecommerce_TestNG01 {
 	ChromeDriver driver = null;
 
 	
-	@Test(dataProvider = "dp_Ecomm", dataProviderClass = Day9.FD.dp.class )
+	@Test(dataProvider = "dp_Ecomm", dataProviderClass = dp_EcomTestNG.class )
 	public void Login_Validation(Map<String,String> mp) throws IOException {
 
 		System.setProperty("webdriver.chrome.driver",
@@ -54,30 +54,35 @@ public class Ecommerce_TestNG01 {
 		driver.findElement(By.xpath("//div[@id = 'account']/a[1]/span")).click();
 		sT01.log(LogStatus.PASS, "Navigation to Login Page successful",
 				"Passed" + sT01.addScreenCapture(getScreenShot()));
-		driver.findElement(By.id("log")).sendKeys(mp.get("Username").replace(".0", ""));
-		driver.findElement(By.id("pwd")).sendKeys(mp.get("Password").replace(".0", ""));
+		driver.findElement(By.id("log")).sendKeys(mp.get("Username"));
+		driver.findElement(By.id("pwd")).sendKeys(mp.get("Password"));
 		logger.info("Actions performed on webelements");
 		driver.findElement(By.id("login")).click();
 		logger.info("Login action successful");
 
 		// Perform validation on login
-		WebElement ele = driver.findElement(By.xpath("//div[@id='account_logout']/a"));
-		if (ele.equals(null)) {
+	
+		if (driver.findElement(By.xpath("//div[@id='account_logout']/a")) ) {
 			System.out.println("Login failed !");
 			logger.info("Login validation failed");
 			sT01.log(LogStatus.FAIL, "User login failed", "Failed" + sT01.addScreenCapture(getScreenShot()));
+			
+		
 		} else {
 			System.out.println("Login successful !");
 			logger.info("Login validation successful");
 			sT01.log(LogStatus.PASS, "User login successful",
 					"Passed" + sT01.addScreenCapture(getScreenShot()));
+			// Logout
+			WebElement ele = driver.findElement(By.xpath("//div[@id='account_logout']/a"));
+			ele.click();
+			logger.info("Logout action successful");
+			sT01.log(LogStatus.PASS, "User logout successful", "Passed" + sT01.addScreenCapture(getScreenShot()));
+			
 		}
+		
 		logger.info("Validation performed");
 
-		// Logout
-		ele.click();
-		logger.info("Logout action successful");
-		sT01.log(LogStatus.PASS, "User logout successful", "Passed" + sT01.addScreenCapture(getScreenShot()));
 
 		// End report
 		report.endTest(sT01);

@@ -3,10 +3,12 @@ package Day9.FD;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
 
 import org.testng.annotations.DataProvider;
 
-public class dp {
+public class dp_EcomTestNG {
 
 	@DataProvider(name = "dp_Ecomm")
 	public static Iterator<Object[]> loginCredentials() throws Exception {
@@ -15,13 +17,13 @@ public class dp {
 		int rowcount = ex.getRowcount("Sheet1");
 		int colcount = ex.getColcount("Sheet1");
 
-		ArrayList<Object[]> ls = new ArrayList<Object[]>();
+		List<Object[]> ls = new ArrayList<Object[]>();
 
 		// Iterate through each row
-		for (int iRow = 1; iRow < rowcount; iRow++) {
+		for (int iRow = 1; iRow <= rowcount; iRow++) {
 
 			Object[] obj = new Object[1];
-			HashMap<String, String> hm = new HashMap<String, String>();
+			Map<String, String> hm = new HashMap<String, String>();
 
 			for (int iCol = 0; iCol < colcount; iCol++) {
 
