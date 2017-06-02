@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
@@ -61,8 +62,9 @@ public class Ecommerce_TestNG01 {
 		logger.info("Login action successful");
 
 		// Perform validation on login
-	
-		if (driver.findElement(By.xpath("//div[@id='account_logout']/a")) ) {
+		List<WebElement> eles = driver.findElements(By.xpath("//div[@id='account_logout']/a"));
+		
+		if (eles.size() == 0 ) {
 			System.out.println("Login failed !");
 			logger.info("Login validation failed");
 			sT01.log(LogStatus.FAIL, "User login failed", "Failed" + sT01.addScreenCapture(getScreenShot()));
