@@ -25,3 +25,11 @@
 2017-06-02 16:59:28 INFO  Ecommerce_TestNG:66 - Driver closed
 2017-06-06 11:18:57 INFO  Ecommerce_TestNG:44 - Chrome driver launched
 2017-06-06 11:18:58 INFO  Ecommerce_TestNG:47 - Application launched
+2017-06-06 16:48:00 INFO  Ecommerce_TestNG:47 - Chrome driver launched
+2017-06-06 16:48:17 INFO  Ecommerce_TestNG:50 - Application launched
+2017-06-06 16:48:25 INFO  Ecommerce_TestNG:60 - Actions performed on webelements
+2017-06-06 16:48:26 INFO  Ecommerce_TestNG:62 - Login action successful
+2017-06-06 16:49:53 INFO  Ecommerce_TestNG:47 - Chrome driver launched
+2017-06-06 16:49:59 INFO  Ecommerce_TestNG:50 - Application launched
+2017-06-06 16:50:05 INFO  Ecommerce_TestNG:47 - Chrome driver launched
+2017-06-06 16:50:06 INFO  Ecommerce_TestNG:50 - Application launched

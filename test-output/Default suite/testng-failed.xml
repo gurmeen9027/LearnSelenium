@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="AFD.scripts.Scenario_Login">
+      <class name="AFD_scripts.Scenario_Login">
         <methods>
           <include name="Login_ValidLogin"/>
         </methods>
-      </class> <!-- AFD.scripts.Scenario_Login -->
+      </class> <!-- AFD_scripts.Scenario_Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
