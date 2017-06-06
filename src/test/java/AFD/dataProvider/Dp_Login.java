@@ -1,6 +1,5 @@
 package AFD.dataProvider;
 
-import AFD.commonLibrary.Excel_ReadWrite;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -8,6 +7,9 @@ import java.util.List;
 import java.util.Map;
 
 import org.testng.annotations.DataProvider;
+
+import AFD.commonLibrary.Excel_ReadWrite;
+
 
 public class Dp_Login {
   
@@ -36,7 +38,7 @@ public class Dp_Login {
 				String key=ex.readCellValue("Login", 0, iCol);
 				String val=ex.readCellValue("Login", iRow, iCol);
 				hm.put(key, val);
-				
+				System.out.println(hm);
 				
 				
 			}	//			column iteration	

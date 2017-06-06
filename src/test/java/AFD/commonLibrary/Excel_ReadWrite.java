@@ -9,6 +9,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Excel_ReadWrite {
+
 	XSSFWorkbook wb;
 	FileInputStream fis;
 
@@ -48,7 +49,6 @@ public class Excel_ReadWrite {
 		// if the cell has string value
 		if (cell.getCellType() == Cell.CELL_TYPE_STRING) {
 			celltext = cell.getStringCellValue();
-			//System.out.println(celltext);
 			// if the cell has numeric value
 		} else if (cell.getCellType() == Cell.CELL_TYPE_NUMERIC) {
 			celltext = String.valueOf(cell.getNumericCellValue());

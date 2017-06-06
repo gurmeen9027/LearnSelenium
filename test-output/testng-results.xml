@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="0" ignored="1" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="899" started-at="2017-06-06T08:46:41Z" finished-at="2017-06-06T08:46:42Z">
+  <suite name="Default suite" duration-ms="912" started-at="2017-06-06T09:06:44Z" finished-at="2017-06-06T09:06:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="899" started-at="2017-06-06T08:46:41Z" finished-at="2017-06-06T08:46:42Z">
+    <test name="Default test" duration-ms="912" started-at="2017-06-06T09:06:44Z" finished-at="2017-06-06T09:06:45Z">
       <class name="AFD.scripts.Scenario_Login">
-        <test-method status="SKIP" signature="Login_ValidLogin(java.util.Map)[pri:0, instance:AFD.scripts.Scenario_Login@ae45eb6]" name="Login_ValidLogin" duration-ms="0" started-at="2017-06-06T14:16:42Z" data-provider="Valid_Login" finished-at="2017-06-06T14:16:42Z">
+        <test-method status="SKIP" signature="Login_ValidLogin(java.util.Map)[pri:0, instance:AFD.scripts.Scenario_Login@ae45eb6]" name="Login_ValidLogin" duration-ms="0" started-at="2017-06-06T14:36:45Z" data-provider="Valid_Login" finished-at="2017-06-06T14:36:45Z">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.NullPointerException]]>
@@ -38,8 +38,8 @@
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
 Caused by: java.lang.NullPointerException
-	at AFD.commonLibrary.Excel_ReadWrite.readCellValue(Excel_ReadWrite.java:49)
-	at AFD.dataProvider.Dp_Login.data_Rediff(Dp_Login.java:25)
+	at AFD.commonLibrary.Excel_ReadWrite.readCellValue(Excel_ReadWrite.java:50)
+	at AFD.dataProvider.Dp_Login.data_Rediff(Dp_Login.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
