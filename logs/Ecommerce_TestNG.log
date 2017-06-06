@@ -23,3 +23,5 @@
 2017-06-02 16:59:27 INFO  Ecommerce_TestNG:36 - Login validation failed
 2017-06-02 16:59:27 INFO  Ecommerce_TestNG:51 - Validation performed
 2017-06-02 16:59:28 INFO  Ecommerce_TestNG:66 - Driver closed
+2017-06-06 11:18:57 INFO  Ecommerce_TestNG:44 - Chrome driver launched
+2017-06-06 11:18:58 INFO  Ecommerce_TestNG:47 - Application launched
